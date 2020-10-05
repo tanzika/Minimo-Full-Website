@@ -1,0 +1,363 @@
+/* font-family: 'Playfair Display', serif;  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part css starts here  */
+header {
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+.logo {
+    width: 20%;
+    float: left;
+}
+nav {
+    width: 38%;
+    float: right;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    margin-left: 99px;
+    color: #626262;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+
+}
+/* header part css ends here  */
+
+/* Banner part css starts here  */
+section.Banner {
+    width: 90%;
+    margin: auto;
+}
+.Banner img{
+    width: 100%;
+}
+/* Banner part css ends here  */
+
+
+/* Photodairy section starts here  */
+
+.photodairy {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+
+}
+.photodairy h1 {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.photodairy h6 {
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.photodairy p {
+    color: #626262;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Photodairy section starts here  */
+
+/* Lifestyle section starts here */
+.lifestyle {
+    width: 89%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    
+    
+}
+.lifestyle content {
+    
+}
+.lifestyle_one img, .lifestyle_two img {
+    width: 100%;
+
+}
+
+.lifestyle_one h6, .lifestyle_two h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin: 15px 0;
+    font-family: 'Playfair Display', serif;
+
+}
+.lifestyle_one h1, .lifestyle_two h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #626262;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+}
+.lifestyle_one p, .lifestyle_two p {
+    font-size: 14px;
+    color: #626262;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+}
+.lifestyle_one {
+    width: 45%;
+    float: left;
+}
+ .lifestyle_two {
+    width: 45%;
+    float: right;
+}
+
+/* Lifestyle section ends here */
+
+
+
+/* post section starts here  */
+
+
+.post {
+    width: 89%;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px;
+    
+}
+.post content {
+  
+}
+.post_one img, .post_two img {
+    width: 100%;
+
+}
+
+.post_one h6, .post_two h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin: 15px 0;
+    font-family: 'Playfair Display', serif;
+
+}
+.post_one h1, .post_two h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #626262;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+}
+.post_one p, .post_two p {
+    font-size: 14px;
+    color: #626262;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+}
+.post_one {
+    width: 45%;
+    float: left;
+}
+ .post_two {
+    width: 45%;
+    float: right;
+}
+
+/* post section ends here  */
+
+
+/* newsletter section starts here  */
+.newsletter {
+    background: #f0f0f0;
+    padding: 50px;
+
+
+}
+.news {
+    width: 30%;
+    margin: auto;
+    position: relative;
+
+}
+.news h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #626262; 
+    padding-bottom: 70px;
+    font-family: 'Playfair Display', serif;
+
+}
+.news input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #424242;
+    width: 100%;
+    outline-style: none;
+
+}
+.news input::placeholder {
+    font-size: 14px;
+    text-transform: capitalize;
+   
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+
+    
+
+   
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+/* newsletter section ends here  */
+
+
+/* row section starts here  */
+
+
+.row {
+    width: 89%;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px;
+    
+}
+.row content {
+  
+}
+.row_one img, .row_two img {
+    width: 100%;
+
+}
+
+.row_one h6, .row_two h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin: 15px 0;
+    font-family: 'Playfair Display', serif;
+
+}
+.row_one h1, .row_two h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #626262;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+}
+.row_one p, .row_two p {
+    font-size: 14px;
+    color: #626262;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+}
+.row_one {
+    width: 45%;
+    float: left;
+}
+ .row_two {
+    width: 45%;
+    float: right;
+}
+
+/* row section ends here  */
+
+.button{
+    margin: auto;
+    width: 8%;
+    padding: 20px;
+    background: transparent;
+    border: 1px solid #626262;
+}
+.button h6 {
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #626262;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+/* footer section starts here  */
+footer {
+    width: 100%;
+    background-color: #f0f0f0;
+    
+}
+.footer-content {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    padding: 35px 0;
+}
+.terms {
+    float: left;
+      
+}
+.terms ul{
+    padding: 200px;
+
+}
+.terms ul li {
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+
+}
+.social_icon {
+    float: right;
+    
+    margin-bottom: 100px;
+}
+.social_icon ul {
+    padding: 200px;
+
+}
+.social_icon ul li {
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+
+
+
+
+/* footer section ends here  */
+
+
+
+
+
+
+
+
+
+
